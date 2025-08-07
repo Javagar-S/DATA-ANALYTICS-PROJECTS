@@ -15,12 +15,16 @@ To design an insightful and interactive dashboard for Adidas US sales data to tr
 ### 📌 Dataset Preview
 > _A snapshot of the raw Adidas sales dataset_
 
-![Dataset Preview](images/dataset_preview.png) 
+![Dataset Preview](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/541ce92c3fc0d8f5fbedbdfc8504029a5b28520a/DAY%203/original%20dataset%20for%20adidas%20image.png) 
+
+### 🧼 2. Cleaned Dataset (After Preprocessing)
+
+![Dataset Preview](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/541ce92c3fc0d8f5fbedbdfc8504029a5b28520a/DAY%203/cleaned%20adidas%20dataset%20image.png)
 
 ### 📊 Power BI Dashboard
 > _The interactive dashboard showing KPIs, filters, and visuals_
 
-![Dashboard Screenshot](images/dashboard_screenshot.png) 
+![Dashboard Screenshot](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/ff8b3904c70e5c0fd68a3c4a4b69179803487dfe/DAY%203/adidas%20dashboard%20image.png) 
 
 ---
 
