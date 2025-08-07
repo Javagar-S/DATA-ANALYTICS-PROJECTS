@@ -1,104 +1,108 @@
-# 📊 Superstore Sales Dashboard
+# 📊 Adidas Sales Dashboard (Power BI)
 
-This dataset is particularly useful for developing skills in data visualization, business intelligence, and storytelling, making it an ideal foundation for dashboards, reports, and decision-making simulations.
-
-
-## 🔑 Key Performance Metrics
-
-- **Total Revenue:** ₹ 5.12 Million  
-- **Total Profit:** ₹ 61.33 Thousand  
-- **Total Discount:** 41.30  
-- **Sales Goal Achievement:**  
-  - **Achieved:** ₹ 5.38K  
-  - **Goal:** ₹ 2.58K  
-  - **% Achieved:** +108.64%
+This project involves building a fully interactive sales dashboard using **Power BI** based on the Adidas US sales dataset. The goal was to enable business stakeholders to quickly visualize key sales and profit metrics, identify trends, and make informed decisions.
 
 ---
 
-## 📦 Sales by Category
+## 🚀 Objective
 
-| Category        | Revenue     |
-|-----------------|-------------|
-| Technology      | ₹ 0.22M 🔝 |
-| Office Supplies | ₹ 0.15M     |
-| Furniture       | ₹ 0.13M     |
-
-> 💡 **Insight:** Technology is the highest-selling category.
+To design an insightful and interactive dashboard for Adidas US sales data to track performance across products, regions, and sales channels.
 
 ---
 
-## 🌍 Sales by Region
+## 🖼️ Screenshots
 
-| Region  | Revenue   |
-|---------|-----------|
-| West    | ₹ 0.07M 🔝 |
-| East    | ₹ 0.06M   |
-| Central | ₹ 0.05M   |
-| South   | ₹ 0.04M   |
+### 📌 Dataset Preview
+> _A snapshot of the raw Adidas sales dataset_
 
-> 💡 **Insight:** The **West** region leads in overall sales performance.
+![Dataset Preview](images/dataset_preview.png) 
 
----
+### 📊 Power BI Dashboard
+> _The interactive dashboard showing KPIs, filters, and visuals_
 
-## 🏙️ Sales by City (Geographic View)
-
-Sales data is represented visually on a **map**, providing regional and city-wise performance at a glance.
-
-- **Color-coded regions:**
-  - Central: 🟣 Purple
-  - East: 🔵 Blue
-  - South: 🔷 Light Blue
-  - West: 🔴 Red
-- Data is **densely clustered in North America**.
+![Dashboard Screenshot](images/dashboard_screenshot.png) 
 
 ---
 
-## 🧩 Top-Performing Sub-Categories
+## 🗂 Dataset
 
-| Sub-Category       | Units Sold |
-|--------------------|------------|
-| Phones             | 77K 🔝     |
-| Chairs             | ~49K       |
-| Copiers            | ~49K       |
-| Machines           | ~49K       |
-| Accessories        | ~46K       |
-| Storage            | ~46K       |
+- **Source**: Kaggle – [Adidas US Sales Dataset]
+- **Format**: Excel (`.xlsx`)
+- **Sheet**: `Data Sales Adidas`
 
-> 💡 **Insight:** **Phones** dominate the sub-category performance.
-
----
-
-## 👥 Customer Insights
-
-The dashboard includes customer-level purchase analysis with:
-
-- **Customer Name**
-- **Region**
-- **Product Purchased**
-
-> 💡 **Insight:** This helps identify **high-value customers** and **popular products** by region.
+### 📄 Columns in Dataset:
+- `Retailer`, `Retailer ID`
+- `Invoice Date`, `Region`, `State`, `City`
+- `Product`, `Price per Unit`, `Units Sold`
+- `Total Sales`, `Operating Profit`, `Operating Margin`
+- `Sales Method`
 
 ---
 
-## 🛠️ Tools & Features
+## 📊 Key KPIs Displayed
 
-- **Power BI Desktop**
-- **Visualizations:**
-  - Bar Charts
-  - KPI Cards
-  - Geo Maps
-  - Tables
-- **Interactive Elements:**
-  - Region-based filters
-  - Highlighting and drill-down features
+- **Total Sales**
+- **Operating Profit**
+- **Average Profit Margin**
+- **Units Sold**
+
+Each KPI is presented using **Card visuals** at the top of the dashboard.
 
 ---
 
-## 🧹 Data Preparation
+## 📈 Visuals Used
 
-### 🗃️ Before Cleaning
-- Original Excel dataset with inconsistencies and raw data formatting.
+| Visualization         | Purpose                               |
+|------------------------|----------------------------------------|
+| **Line Chart**         | Monthly Sales Trend                    |
+| **Bar Chart**          | Sales by Product                       |
+| **Column Chart**       | Sales by Region                        |
+| **Donut Chart**        | Sales by Sales Method                  |
+| **Scatter/Bar Chart**  | Profit Margin by Product               |
+| **Slicers**            | Year, Month, Region, Product, Method   |
 
-### ✅ After Cleaning
-- Transformed and standardized data ready for Power BI visualization.
+---
 
+## 🔍 Business Insights
+
+- 🥇 **Top-Selling Product**: Men’s Street Footwear – ₹208.8M in sales
+- 🗺 **Top Region**: West – ₹269.9M in total sales
+- 🛍 **Sales Method**: In-store dominates with ₹356.6M revenue
+- 💹 **Profitability**:
+  - Apparel has higher margins (up to 38%)
+  - Footwear has higher unit volume
+
+---
+
+## 🎨 Design Features
+
+- Consistent color theme (blue-green)
+- Clean layout using grid alignment
+- Tooltips and slicers for interactivity
+- Responsive visual elements with drop-down filters
+
+---
+
+## 📁 Files Included
+
+- `ADIDAS SALES DASHBOARD.pbix` – Power BI dashboard file
+- `Copy of Adidas_US_Sales_Datasets(1).xlsx` – Raw dataset
+- `Adidas Sales Dashboard Report.pptx` – PowerPoint summary
+- `README.md` – Project documentation
+- `images/` – Folder containing screenshots
+
+---
+
+## 💡 Learnings
+
+- Developed strong skills in KPI selection and dashboard storytelling
+- Gained practical experience in Power BI DAX, slicers, and bookmarks
+- Understood how to extract actionable insights from sales data
+
+---
+
+## ✅ How to Use
+
+1. Open the `.pbix` file in Power BI Desktop
+2. Use slicers to filter by region, product, or time
+3. Hover over visuals to explore detailed metrics
