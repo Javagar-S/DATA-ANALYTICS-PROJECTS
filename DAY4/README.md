@@ -37,6 +37,8 @@ SELECT type, COUNT(*) AS total
 FROM netflix
 GROUP BY type;
 ```
+![1](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/857cbcb3d5255da9403a7eba0eaac3934c0391d8/DAY4/1image%20output.png)
+
 
 ## 2. List All Movies Released in 2020
 
@@ -45,6 +47,7 @@ SELECT *
 FROM netflix
 WHERE type = 'Movie' AND release_year = 2020;
 ```
+![2](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/857cbcb3d5255da9403a7eba0eaac3934c0391d8/DAY4/2%20image%20output.png)
 
 ## 3. Find Top 3 Countries with Most Content
 
@@ -58,6 +61,7 @@ GROUP BY country
 ORDER BY total_content DESC
 LIMIT 3;
 ```
+![3](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/857cbcb3d5255da9403a7eba0eaac3934c0391d8/DAY4/3%20image%20output.png)
 
 ## 4. Simple Subquery: Find Average Duration of Movies
 
@@ -67,6 +71,7 @@ FROM netflix
 WHERE type = 'Movie' AND duration LIKE '%min%';
 
 ```
+![4](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/857cbcb3d5255da9403a7eba0eaac3934c0391d8/DAY4/4%20image%20output.png)
 
 ## 5. Create a Simple View for Indian Movies
 
@@ -77,3 +82,4 @@ FROM netflix
 WHERE country LIKE '%India%' AND type = 'Movie';
 SELECT * FROM indian_movies;
 ```
+![5](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/857cbcb3d5255da9403a7eba0eaac3934c0391d8/DAY4/5%20image%20output.png)
