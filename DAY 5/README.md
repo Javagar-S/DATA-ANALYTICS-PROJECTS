@@ -93,10 +93,10 @@ It includes:
 ## 📸 Visualizations
 
 
-![Correlation Heatmap](IMAGE_LINK_1)
+![page 1](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/2f13903bfa9c17d1e29d79e5d1bc5e009b1f3390/DAY%205/PAGE%201.png)
 
 
-![Survival Trends](IMAGE_LINK_2)
+![Survival Trends](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/2f13903bfa9c17d1e29d79e5d1bc5e009b1f3390/DAY%205/PAGE%202.png)
 
 ---
 
