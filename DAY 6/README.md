@@ -132,26 +132,6 @@ ORDER BY
 
 ---
 
-## 📅 Example: Limit to Specific Time Period (Jan–Jun 2024)
-```sql
-SELECT
-    EXTRACT(YEAR FROM order_date) AS order_year,
-    EXTRACT(MONTH FROM order_date) AS order_month,
-    SUM(amount) AS total_revenue,
-    COUNT(DISTINCT order_id) AS order_volume
-FROM
-    online_sales
-WHERE
-    EXTRACT(YEAR FROM order_date) = 2024
-    AND EXTRACT(MONTH FROM order_date) BETWEEN 1 AND 6
-GROUP BY
-    order_year, order_month
-ORDER BY
-    order_year, order_month;
-```
-
----
-
 ## 📈 Expected Outcome
 The queries will return:
 - **Year** & **Month** of each order batch.
@@ -160,30 +140,28 @@ The queries will return:
 - Data sorted by **Year → Month**.
 
 ---
+![dataset](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/357cec05310e68fdd90f890c1b391e0732ee0bbc/DAY%206/complete%20data.png)
 
 ## 🖼 Output Screenshots
 *(Paste your screenshots below after running each query in pgAdmin)*
 
 **1️⃣ Extract Month & Year**
-![Extract Month & Year](images/extract_month_year.png)
+![Extract Month & Year](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/357cec05310e68fdd90f890c1b391e0732ee0bbc/DAY%206/q1.png)
 
 **2️⃣ Group by Year/Month**
-![Group by Year/Month](images/group_by_year_month.png)
+![Group by Year/Month](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/357cec05310e68fdd90f890c1b391e0732ee0bbc/DAY%206/q2.png)
 
 **3️⃣ Calculate Revenue**
-![Calculate Revenue](images/calculate_revenue.png)
+![Calculate Revenue](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/357cec05310e68fdd90f890c1b391e0732ee0bbc/DAY%206/q3.png)
 
 **4️⃣ Calculate Order Volume**
-![Calculate Order Volume](images/calculate_order_volume.png)
+![Calculate Order Volume](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/357cec05310e68fdd90f890c1b391e0732ee0bbc/DAY%206/q4.png)
 
 **5️⃣ Combine Revenue & Volume**
-![Combine Revenue & Volume](images/combine_revenue_volume.png)
+![Combine Revenue & Volume](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/357cec05310e68fdd90f890c1b391e0732ee0bbc/DAY%206/q5.png)
 
 **6️⃣ Sort by Year & Month**
-![Sort by Year & Month](images/sort_by_year_month.png)
-
-**7️⃣ Filtered Period (Jan–Jun 2024)**
-![Filtered Period](images/filtered_period.png)
+![Sort by Year & Month](https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS/blob/357cec05310e68fdd90f890c1b391e0732ee0bbc/DAY%206/q6.png)
 
 ---
 
