@@ -39,7 +39,7 @@ It covers the **entire workflow** — from importing raw data, cleaning and tran
 ---
 
 ## 📤 Submission Guidelines  
-**GitHub Repository:** *(Add your repository link here)*  
+**GitHub Repository:** *(https://github.com/Javagar-S/DATA-ANALYTICS-PROJECTS.git)*  
 
 **Files Included:**  
 - `Superstore_Sales.xlsx` – Raw dataset  
